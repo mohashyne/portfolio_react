@@ -18,7 +18,8 @@ const AllProjects = () => (
           description={project.description}
           linkText={project.linkText}
           link={project.link}
-		  sourcelink={project.sourceLink}
+		  sourceText={project.sourceText}
+		  linkSource={project.sourceLink}
         />
       </div>
     ))}
