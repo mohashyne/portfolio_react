@@ -39,10 +39,12 @@ const INFO = {
 			description:
 				"Book Store is a web application that provides a platform for users to browse , add and delete books.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo2: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",	
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
 			linkText: "View Project",
 			link: "https://mohashyne.github.io/book_store/",
 			image: "./img/projects/project1.png",
-			technologies: ["HTML", "CSS", "JavaScript", "React", "Redux"],
+			technologies: ["JavaScript", "React", "Redux"],
 			sourceLink: "https://github.com/mohashyne/book_store",
 			projectCover: "./img/projects/Snapshoot_Portfolio_1.png",
 			fullDescription: `Book Store is a web application that provides a platform for users to browse , add and delete books. The bookstore features a user-friendly interface with a wide selection of books, categorized for easy navigation
@@ -54,7 +56,9 @@ const INFO = {
 			title: "24-Hour Doctor Reservation App",
 			description:
 				"24-Hour Doctor Reservation App: Modern web tool for managing doctor directory, reservations, and user-friendly interaction.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
+			logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",	
+			logo3: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/ruby/ruby.png",
 			linkText: "View Project",
 			link: "https://two4hours-doctor-frontend.onrender.com/",
 			image: './img/projects/project2.png',
@@ -71,6 +75,8 @@ const INFO = {
 			description:
 				"World Vista is a dynamic web app using the Fetch API for country data. It offers details on culture, history, and attractions.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/mohashyne/Module-Capstone--2",
 			image: './img/projects/project3.png',
@@ -88,8 +94,9 @@ const INFO = {
 			title: "Space Travelers Hub",
 			description:
 				"Space Travelers Hub is a web application that allows users to reserve and cancel rocket reservations while offering an enhanced user interface for visual clarity.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
 			link: "https://github.com/mohashyne/space-travelers-hub",
 			image: './img/projects/project4.png',
 			technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -105,7 +112,9 @@ const INFO = {
 			title: "Recipe app",
 			description:
 				"The Recipe app helps manage recipes, ingredients, and inventory. Save ingredients, track what you have, create recipes, and generate shopping lists. Share recipes by making them public for easy access by others.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",	
+				logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
 			linkText: "View Project",
 			link: "https://github.com/mohashyne/Recipe_App",
 			image: './img/projects/project5.png',
