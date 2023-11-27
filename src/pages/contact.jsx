@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 
 import NavBar from '../components/common/navBar';
@@ -17,6 +17,27 @@ const Contact = () => {
   }, []);
 
   const currentSEO = SEO.find((item) => item.page === 'contact');
+
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Form submitted:', formData);
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+    });
+  };
 
   return (
     <>
@@ -61,12 +82,54 @@ const Contact = () => {
               </a>
               . I regularly share updates and engage with followers, so feel free to connect. Thank you once again for your interest, and I eagerly anticipate hearing from you soon.!
             </div>
-          </div>
+            <div class="container">
+  <div class="card">
+    <form onSubmit={handleSubmit}>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleInputChange}
+          required
+        />
+      </div>
 
-          <div className="socials-container">
-            <div className="contact-socials">
-              <Socials />
-            </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleInputChange}
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          value={formData.message}
+          onChange={handleInputChange}
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="socials-container">
+    <div class="contact-socials">
+      <Socials />
+    </div>
+  </div>
+</div>
           </div>
 
           <div className="page-footer">
