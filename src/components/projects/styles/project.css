@@ -59,7 +59,7 @@
 
 .project-link-icon {
 	padding-left: 5px;
-	font-size: 13px;
+	font-size: 10px;
 }
 
 .project-link-text {
@@ -72,3 +72,22 @@
 		height: 300px;
 	}
 }
+
+
+.project-link-button {
+	display: inline-block;
+	padding: 8px 20px; 
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .project-link-button:hover {
+	background-color: #45a049;
+  }
+  
+  
+  

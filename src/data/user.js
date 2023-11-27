@@ -97,6 +97,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			logo2: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			logo3: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
+			linkText: "View Project",
 			link: "https://github.com/mohashyne/space-travelers-hub",
 			image: './img/projects/project4.png',
 			technologies: ['HTML', 'CSS', 'JavaScript'],

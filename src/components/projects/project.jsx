@@ -20,7 +20,7 @@ const Project = (props) => {
 						</div>
 						<div className="project-title">{title}</div>
 						<div className="project-description">{description}</div>
-						<div className="project-link">
+						<div className="project-link project-link-button">
 							<div className="project-link-icon">
 								<FontAwesomeIcon icon={faLink} />
 							</div>
