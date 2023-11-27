@@ -130,6 +130,10 @@
 		order: 1;
 	}
 
+	.homepage-image {
+		height: 25rem;
+	}
+
 	.homepage-after-title {
 		flex-direction: column;
 	}
