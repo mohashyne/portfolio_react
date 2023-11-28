@@ -74,11 +74,11 @@ const Contact = () => {
               . I make every effort to respond to messages within 24 hours, though response times may be longer during peak periods. Alternatively, you can use the contact form on my website, providing the necessary details, and I will promptly get back to you. If you prefer to connect through social media, you can find me on
               {' '}
               <a
-                href={INFO.socials.instagram}
+                href={INFO.socials.twitter}
                 target="_blank"
                 rel="noreferrer"
               >
-                {INFO.socials.instagram}
+                {INFO.socials.twitter}
               </a>
               . I regularly share updates and engage with followers, so feel free to connect. Thank you once again for your interest, and I eagerly anticipate hearing from you soon.!
             </div>

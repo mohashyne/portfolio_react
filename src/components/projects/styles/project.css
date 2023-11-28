@@ -29,7 +29,7 @@
 .project-logo {
 	display: flex;
 	gap: 1rem;
-	width: 30px;
+	width: 2rem;
 }
 
 .project-logo img {
@@ -65,6 +65,11 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
+}
+
+.project-btn {
+	display: flex;
+	gap: 1rem;
 }
 
 @media (max-width: 600px) {
