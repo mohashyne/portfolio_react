@@ -35,7 +35,7 @@ const Works = () => (
             <div className="work-subtitle">
               Head Of Dept(ICT)
             </div>
-            <div className="work-duration">2014 - 2022</div>
+            <div className="work-duration">2014 - Present</div>
           </div>
         </div>
    )}
