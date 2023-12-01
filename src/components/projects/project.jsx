@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { logo, logo2, logo3, title, description, link, linkSource } = props;
+	const { logo, logo2, logo3, title, description, link, linkSource,image } = props;
 
 	return (
 		<React.Fragment>
@@ -15,6 +15,9 @@ const Project = (props) => {
 							<img src={logo3} alt="logo" />
 						</div>
 						<div className="project-title">{title}</div>
+						<div className="project-image">
+							<img src={image} alt="project_image" />
+						</div>
 						<div className="project-description">{description}</div>
 						<div className="project-link">
                   <div className="project-btn">

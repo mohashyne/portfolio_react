@@ -34,7 +34,19 @@
 
 .project-logo img {
 	width: 25%;
+	transition: transform 0.3s ease;
 }
+
+.project-logo:hover img {
+    transform: scale(0.9);
+}
+
+.project-image img {
+    width: 22rem;
+    height: 15rem;
+}
+
+
 
 .project-title {
 	font-family: var(--secondary-font);
