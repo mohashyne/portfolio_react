@@ -22,6 +22,8 @@ import SEO from '../data/seo';
 import myArticles from '../data/articles';
 
 import './styles/homepage.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 const Homepage = () => {
   const [stayLogo, setStayLogo] = useState(false);
@@ -30,6 +32,7 @@ const Homepage = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    AOS.init();
   }, []);
 
   useEffect(() => {
@@ -88,7 +91,7 @@ const Homepage = () => {
             </div>
           </div>
 
-          <div className="homepage-container">
+          <div data-aos="fade-up" className="homepage-container">
             <div className="homepage-first-area">
               <div className="homepage-first-area-left-side">
                 <div className="title homepage-title">
@@ -113,7 +116,7 @@ const Homepage = () => {
               </div>
             </div>
 
-            <div className="homepage-socials">
+            <div data-aos="fade-up" className="homepage-socials">
               <a
                 href={INFO.socials.twitter}
                 target="_blank"
@@ -166,11 +169,11 @@ const Homepage = () => {
               </a>
             </div>
 
-            <div className="homepage-projects">
+            <div data-aos="fade-up" className="homepage-projects">
               <AllProjects />
             </div>
 
-            <div className="homepage-after-title">
+            <div data-aos="fade-up" className="homepage-after-title">
               <div className="homepage-articles">
                 {myArticles.map((article, index) => (
                   <div
