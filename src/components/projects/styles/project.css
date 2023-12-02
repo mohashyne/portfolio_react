@@ -166,7 +166,7 @@
 		   .project-popup {
 			display: none;
 			position: fixed;
-			top: 50%;
+			/* top: 50%; */
 			left: 50%;
 			border-radius: 20px;
 			transform: translate(-50%, -50%);
@@ -186,4 +186,4 @@
 			border-radius: 20px;
 			object-fit: cover;
 		  }
-			 
+		 
