@@ -48,17 +48,25 @@ const About = () => {
                 <div className="subtitle about-subtitle">
                   {INFO.about.description}
                 </div>
+                <a
+                   href="/resume.pdf" 
+                   download="resume.pdf"
+                   className="custom-download-button"
+                 >
+                   Download Resume
+                </a>
+
               </div>
 
               <div className="about-left-side">
                 <div className="about-image-container">
                   <div className="about-image-wrapper">
-                  <img
-                  src="about.jpg"
-                  alt="about"
-                  className="about-image"
-                />
-                </div>
+                    <img
+                      src="about.jpg"
+                      alt="about"
+                      className="about-image"
+                    />
+                  </div>
                 </div>
 
                 <div className="about-socials">
@@ -80,3 +88,4 @@ const About = () => {
 };
 
 export default About;
+
