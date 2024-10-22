@@ -18,13 +18,13 @@ const INFO = {
 	homepage: {
 		title: "Full-stack web developer, and CyberSecurity Expert.",
 		description:
-			"Hello, I'm a Software Developer and Cybersecurity Expert. I excel in Full-Stack Development using JavaScript, React, Redux, Ruby on Rails, and SQL. With Agile Project Management expertise, I'm also skilled in Cybersecurity, specializing in Penetration Testing and Ethical Hacking. Recognized for maintaining clean code and contributing to projects like Doctor Reservation, Awesome Book, Budget, and Blog Apps. Let's connect for your coding needs! Feel free to contact me anytime.",
+			"Hello, I'm a Software Developer and Cybersecurity Expert with expertise in Full-Stack Development using JavaScript, React, Redux, Ruby on Rails, and SQL. I specialize in Penetration Testing, Ethical Hacking, and real-time threat monitoring. My Network Penetration Testing project showcases network vulnerability analysis with Nmap, Metasploit, Nessus, and Wireshark, while Website Penetration Testing leverages Burp Suite, SQLmap, and social engineering techniques. I've also built a SOC Analyst Lab for security monitoring using tools like Elastic, Kibana, and Splunk. Recognized for maintaining clean code and contributing to projects like Doctor Reservation, Awesome Book, Budget, and Blog Apps. Let’s connect for your software or security needs!.",
 	},
 
 	about: {
 		title: "I'm Muhammad from Nigeria, shaping the future through software development & cybersecurity.",
 		description:
-			"I've delivered 20+ projects with recognition for innovation and clean code. Proficient in Visual Studio Code, Redux DevTools, Webstorm, PostgreSQL, and Git/GitHub, I apply Agile methodologies and paired programming. Specializing in RESTful API design, I optimize scalability and database management. In cybersecurity, I've conducted Network Penetration Testing and demonstrated proficiency in Windows, Linux, Unix administration, and ethical hacking. Known for collaboration and peer programming, I thrive on creative solutions in challenging situations, and I'm always open to new ideas and feedback.",
+			"I’ve delivered 20+ projects, recognized for innovation, clean code, and robust security practices. Proficient in tools like Visual Studio Code, Redux DevTools, Webstorm, PostgreSQL, Git/GitHub, and Splunk, I apply Agile methodologies and paired programming to drive efficient development. Specializing in RESTful API design and scalable database management, I also excel in cybersecurity, including Network Penetration Testing, Windows, Linux, Unix administration, and ethical hacking. Known for collaboration and creative problem-solving, I welcome feedback and thrive in challenging, dynamic environments. Always eager to learn and explore new ideas.",
 	},
 
 	articles: {
